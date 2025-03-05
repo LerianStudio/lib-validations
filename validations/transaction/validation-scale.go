@@ -1,9 +1,9 @@
 package transaction
 
 import (
+	"github.com/LerianStudio/plugin-sdk/validations/transaction/model"
 	"math"
 	"math/big"
-	"plugin-sdk/validations/transaction/model"
 	"strings"
 )
 
