@@ -25,7 +25,6 @@ permissions:
 jobs:
   publish_release:
     runs-on: ubuntu-24.04
-    needs: integration_tests
     environment:
       name: create_release
     name: Create Release to SDK
