@@ -1,5 +1,14 @@
 package model
 
+// Send is the struct designed to represent the sending fields of an operation.
+type Send struct {
+	Asset      string     `json:"asset,omitempty" validate:"required" example:"BRL"`
+	Value      int64      `json:"value,omitempty" validate:"required" example:"1000"`
+	Scale      int64      `json:"scale,omitempty" validate:"gte=0" example:"2"`
+	Source     Source     `json:"source,omitempty" validate:"required"`
+	Distribute Distribute `json:"distribute,omitempty" validate:"required"`
+}
+
 // Responses is the struct result of transaction validation process
 type Responses struct {
 	Total        int64
@@ -23,15 +32,6 @@ type Amount struct {
 type Share struct {
 	Percentage             int64 `json:"percentage,omitempty" validate:"required"`
 	PercentageOfPercentage int64 `json:"percentageOfPercentage,omitempty"`
-}
-
-// Send is the struct designed to represent the sending fields of an operation.
-type Send struct {
-	Asset      string     `json:"asset,omitempty" validate:"required" example:"BRL"`
-	Value      int64      `json:"value,omitempty" validate:"required" example:"1000"`
-	Scale      int64      `json:"scale,omitempty" validate:"gte=0" example:"2"`
-	Source     Source     `json:"source,omitempty" validate:"required"`
-	Distribute Distribute `json:"distribute,omitempty" validate:"required"`
 }
 
 // FromTo is the struct designed to represent the from/to fields of an operation.
