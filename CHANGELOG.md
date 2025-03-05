@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/LerianStudio/plugin-sdk/compare/v1.2.0...v1.3.0) (2025-03-05)
+
+
+### Bug Fixes
+
+* Validation of remaining. ([93b59eb](https://github.com/LerianStudio/plugin-sdk/commit/93b59eb10299ede844477a9031f64392427bf37a))
+
 ## [1.2.0](https://github.com/LerianStudio/plugin-sdk/compare/v1.1.0...v1.2.0) (2025-03-05)
 
 
