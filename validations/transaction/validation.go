@@ -2,9 +2,10 @@ package transaction
 
 import (
 	"errors"
-	"github.com/LerianStudio/plugin-sdk/validations/transaction/model"
 	"math"
 	"strings"
+
+	"github.com/LerianStudio/plugin-lib/validations/transaction/model"
 )
 
 // ValidateSendSourceAndDistribute Validate send and distribute totals making all the necessary calculation
