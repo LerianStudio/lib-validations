@@ -108,7 +108,7 @@ func calculateTotal(fromTos []model.FromTo, send model.Send, t chan int64, ft ch
 			fmto[fromTos[i].Account] = amount
 		}
 
-		if IsNilOrEmpty(&fromTos[i].Remaining) {
+		if !IsNilOrEmpty(&fromTos[i].Remaining) {
 			total.Value += remaining.Value
 
 			fmto[fromTos[i].Account] = remaining
