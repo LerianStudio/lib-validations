@@ -1,3 +1,13 @@
+## [1.4.0](https://github.com/LerianStudio/plugins-lib/compare/v1.3.0...v1.4.0) (2025-03-05)
+
+
+### Bug Fixes
+
+* renaming module ([2044a3d](https://github.com/LerianStudio/plugins-lib/commit/2044a3d978f3d5b827991b84c183b67adf41ee38))
+* renaming module ([59994a5](https://github.com/LerianStudio/plugins-lib/commit/59994a57ab3210920499c9ed9b82286ee934bf48))
+* renaming module ([a6fdcf6](https://github.com/LerianStudio/plugins-lib/commit/a6fdcf639e3880d7013833551be95260fec223ba))
+* renaming module ([a8ce449](https://github.com/LerianStudio/plugins-lib/commit/a8ce44993a767a8305efa5a16223ec8ce05af42b))
+
 ## [1.3.0](https://github.com/LerianStudio/plugin-sdk/compare/v1.2.0...v1.3.0) (2025-03-05)
 
 
