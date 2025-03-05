@@ -23,17 +23,6 @@ permissions:
   pull-requests: write
 
 jobs:
-  integration_tests:
-    name: Integration Test
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Run Unit Tests
-        shell: bash
-        run: make test
-
   publish_release:
     runs-on: ubuntu-24.04
     needs: integration_tests
