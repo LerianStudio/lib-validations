@@ -1,3 +1,10 @@
+## [1.2.0-beta.1](https://github.com/LerianStudio/plugin-sdk/compare/v1.1.0...v1.2.0-beta.1) (2025-03-05)
+
+
+### Features
+
+* configure go analysis ([804912a](https://github.com/LerianStudio/plugin-sdk/commit/804912ab2ae4a81c466aa276384143c658a709cc))
+
 ## [1.1.0](https://github.com/LerianStudio/plugin-sdk/compare/v1.0.3...v1.1.0) (2025-03-05)
 
 
