@@ -5,5 +5,5 @@ Repository that has the rules to validate and treat the Lerian transaction value
 ## 📦 Install
 
 ```bash
-go get -u github.com/LerianStudio/plugin-sdk
+go get -u github.com/LerianStudio/validations-lib
 ```
