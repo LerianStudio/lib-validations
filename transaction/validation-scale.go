@@ -1,11 +1,10 @@
 package transaction
 
 import (
+	"github.com/LerianStudio/validations-lib/transaction/model"
 	"math"
 	"math/big"
 	"strings"
-
-	"github.com/LerianStudio/plugin-lib/validations/transaction/model"
 )
 
 // FindScale Function to find the scale for any value of a value
