@@ -1,3 +1,10 @@
+## [1.6.0-beta.1](https://github.com/LerianStudio/lib-validations/compare/v1.5.0...v1.6.0-beta.1) (2025-03-12)
+
+
+### Bug Fixes
+
+* Adjusting the lib validations. ([599f2d8](https://github.com/LerianStudio/lib-validations/commit/599f2d80bb44398aa02c047b404384f1837afbb2))
+
 ## [1.5.0](https://github.com/LerianStudio/validations-lib/compare/v1.4.0...v1.5.0) (2025-03-06)
 
 
