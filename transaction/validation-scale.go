@@ -1,7 +1,7 @@
 package transaction
 
 import (
-	"github.com/LerianStudio/validations-lib/transaction/model"
+	"github.com/LerianStudio/lib-validations/transaction/model"
 	"math"
 	"math/big"
 	"strings"
